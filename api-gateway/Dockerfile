@@ -1,5 +1,5 @@
 #this component is used to define Images in Dockerfile
-FROM openjdk:21-jdk-alpine
+FROM openjdk:21-jdk
 
 #it is used to create a path inside a container and we will directly go to that path.
 WORKDIR /app
