@@ -21,7 +21,7 @@ spec:
         - containerPort: 8083
         env:
         - name: SPRING_DATASOURCE_URL
-          value: jdbc:postgresql://postgres-service:5432/inventory-service
+          value: jdbc:postgresql://postgres-service:5432/inventory_service
         - name: SPRING_DATASOURCE_USERNAME
           value: postgres
         - name: SPRING_DATASOURCE_PASSWORD
